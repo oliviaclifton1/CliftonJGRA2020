@@ -1,0 +1,27 @@
+Olivia E. Clifton (oclifton@ucar.edu)
+
+
+plot_map_northhemi_correl_o3ddv.py 
+--this script plots northern hemisphere maps of correlation coefficients for daily values between 1) surface ozone & ozone deposition velocity and 2) effective stomatal conductance & effective wet cuticular conductance also creates netcdf files for maps of correlation coefficients (Figure 7g,h in publication)
+
+plot_map_northhemi_egx.py
+--this script plots northern hemisphere maps of effective conductances for a given season -- left panel of plots are 2010s values and right panel of plots are 2090s-2010s values -- need to run script twice to get both seasons (change season info) (Figure 6 in publication)
+
+plot_map_northhemi_frac_var_vd_pathway.py
+--this script plots the fractional variance explained by each depositional pathway in daily variations in ozone deposition velocity across the northern hemisphere for a given season (Figure 7i,j,k,l in publication)
+
+plot_map_northhemi_model_eval_station.py
+--this script evaluates model surface ozone with TOAR surface ozone dataset for winter and summer northern hemisphere by plotting bias (simulated-observed) and change in bias with new model simulation (Figure 4 in publication)
+
+plot_map_northhemi_xactive_static_diff.py
+--this script plots northern hemisphere winter and summer averages for differences in ozone deposition velocity (vd) and surface ozone between xactive/dynamic simulations and static simulations, as well as change in vd and surface ozone from 2010s and 2090s (Figure 3 in publication)
+
+plot_map_northhemi_xactive_trend_met.py
+--this script plots northern hemisphere summer change from 2010s to 2090s from xactive/dynamic simulations in leaf area index (LAI), precipitation, vapor pressure deficit (VPD), and soil wetness (Figure S4 in publication)
+
+
+plot_profile_northhemi_xactive_static_diff.py
+-- this script plots winter mean ozone vertical profile difference between xactive/dynamic simulations and static simulations for northern mid latitudes & boreal regions
+
+plot_reg_pdf_regmean.py
+--this script plots probability density functions (pdfs) of regional mean daily surface ozone during summer for xactive/dynamic simulation and static simulation and also include pdfs for surface ozone on rainy days for southeastern United States (Figure 7a,b,c,d,e,f in publication)
