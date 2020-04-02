@@ -1,6 +1,5 @@
 Olivia E. Clifton (oclifton@ucar.edu)
 
-
 plot_map_northhemi_correl_o3ddv.py 
 --this script plots northern hemisphere maps of correlation coefficients for daily values between 1) surface ozone & ozone deposition velocity and 2) effective stomatal conductance & effective wet cuticular conductance also creates netcdf files for maps of correlation coefficients (Figure 7g,h in publication)
 
@@ -19,9 +18,15 @@ plot_map_northhemi_xactive_static_diff.py
 plot_map_northhemi_xactive_trend_met.py
 --this script plots northern hemisphere summer change from 2010s to 2090s from xactive/dynamic simulations in leaf area index (LAI), precipitation, vapor pressure deficit (VPD), and soil wetness (Figure S4 in publication)
 
-
 plot_profile_northhemi_xactive_static_diff.py
 -- this script plots winter mean ozone vertical profile difference between xactive/dynamic simulations and static simulations for northern mid latitudes & boreal regions
 
 plot_reg_pdf_regmean.py
 --this script plots probability density functions (pdfs) of regional mean daily surface ozone during summer for xactive/dynamic simulation and static simulation and also include pdfs for surface ozone on rainy days for southeastern United States (Figure 7a,b,c,d,e,f in publication)
+
+calc_reg_seas_avg_stomatal_frac.py
+--this script calculates the regional average stomatal fraction of ozone dry deposition for a given season and only includes grid cells where leaf area index (LAI)> 2 m2/m2
+
+plot_map_northhemi_trend.py
+--this script calculates the 2010s to 2090s change in a seasonally averaged variable and plots map for northern hemisphere (used for winter leaf area index in Figure S3)
+
